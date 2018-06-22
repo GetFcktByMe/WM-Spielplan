@@ -8,15 +8,21 @@
 public class Teams
 {
     // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
-    private int x;
+    private String Teamname;
+    private int spieler;
+    private int punkte;
+    private int platzierung;
+    private int tore;
+    private int gegentore;
+    private int torverhältniss;
+    
 
     /**
      * Konstruktor für Objekte der Klasse Teams
      */
     public Teams()
     {
-        // Instanzvariable initialisieren
-        x = 0;
+        
     }
 
     /**
@@ -25,9 +31,4 @@ public class Teams
      * @param  y    ein Beispielparameter für eine Methode
      * @return        die Summe aus x und y
      */
-    public int beispielMethode(int y)
-    {
-        // tragen Sie hier den Code ein
-        return x + y;
-    }
-}
+   
