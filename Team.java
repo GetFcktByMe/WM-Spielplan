@@ -12,8 +12,8 @@ public class Team
     private int spieler;
     private int punkte;
     private int platzierung;
-    private int tore;
-    private int gegentore;
+    public int tore;
+    public int gegentore;
     private int torverhealtnis;
     
 
@@ -53,7 +53,7 @@ public class Team
     
      public int gibTore()
     {
-        return gegentore;
+        return tore;
     }
     
      public int gibgegentore()
